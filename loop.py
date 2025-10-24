@@ -1,9 +1,14 @@
+# range 范围，排列，排序
 a=list(range(0,5))
 print(a)
 b=list(range(0,100,10))
 print(b)
 # define a function 子程序 
-#  name  parameters body
+# def: define 定义 
+# function 函数，子程序
+# parameters: input or 输入
+# output: result 结果
+#  name  parameters (input) body
 def testfunc(name1):
     print ('hello %s' %name1)
 
